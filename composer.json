@@ -1,0 +1,24 @@
+{
+	"name": "maximal/file-system-watch",
+	"version": "1.0.0",
+	"type": "library",
+	"description": "Simple poll-based synchronous file system watcher for PHP with no dependencies.",
+	"keywords": [
+		"library",
+		"file",
+		"file system",
+		"watch",
+		"watcher"
+	],
+	"license": "MIT",
+	"require": {
+		"php": ">=8.1"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Maximal\\FileSystem\\Watch\\": "src/"
+		}
+	}
+}
